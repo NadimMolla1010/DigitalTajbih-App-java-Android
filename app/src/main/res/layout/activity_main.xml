@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    android:background="#C7F6C7"
+
+    >
+
+
+    <TextView
+        android:id="@+id/tvcount"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:text="0"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:background="#F8F9F5"
+
+        />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Add one" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Sub one" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Reset" />
+
+
+</LinearLayout>
